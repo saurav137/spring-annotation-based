@@ -16,4 +16,9 @@ public class config {
         return new Actor("Tejveer",25,"Male");
     }
 
+    @Bean
+    public BeanLifecycleDemo beanLifecycleDemo(){
+        return new BeanLifecycleDemo();
+    }
+
 }
